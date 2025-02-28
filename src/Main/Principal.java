@@ -15,15 +15,17 @@ public class Principal {
 		//Declarar variables
 		Scanner lectura = null;
 		
-		 String nombre, nombreNuevo;
-		 float precio;
-		 int existencia, menuPrinc, indice;
-		 String sabor;
+		String nombre, nombreNuevo;
+		float precio;
+		int existencia, menuPrinc, indice;
+		String sabor;
 		LocalDate fechaLabo;
 		
 		Panes pan = null;
 		
 		LogicaMetodos imp = new LogicaMetodos();
+		
+		System.out.println("texto solopara jugar con el control de versiones");
 		
 		do {
 			System.out.println("MENU PRINCIPAL -PANADERIA");
