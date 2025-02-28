@@ -25,8 +25,6 @@ public class Principal {
 		
 		LogicaMetodos imp = new LogicaMetodos();
 		
-		System.out.println("texto solopara jugar con el control de versiones");
-		
 		do {
 			System.out.println("MENU PRINCIPAL -PANADERIA");
 			System.out.println("1---ALTA");
